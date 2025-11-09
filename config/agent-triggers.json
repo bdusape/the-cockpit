@@ -1,0 +1,125 @@
+{
+  "version": "1.0.0",
+  "description": "Agent trigger mappings for The Cockpit WhatsApp bot",
+  "agents": {
+    "publicist": {
+      "trigger": "@publicist",
+      "filename": "publicist.md",
+      "emoji": "📣",
+      "name": "Publicist",
+      "description": "PR & announcements specialist",
+      "useCases": [
+        "Product launches",
+        "Milestone announcements",
+        "Content creation",
+        "Press releases"
+      ],
+      "active": true
+    },
+    "growth": {
+      "trigger": "@growth",
+      "filename": "growth-hacker.md",
+      "emoji": "📈",
+      "name": "Growth Hacker",
+      "description": "Virality & growth tactics",
+      "useCases": [
+        "Algorithm optimization",
+        "Content virality",
+        "Platform growth",
+        "A/B testing strategies"
+      ],
+      "active": true
+    },
+    "strategist": {
+      "trigger": "@strategist",
+      "filename": "strategist.md",
+      "emoji": "🧠",
+      "name": "Strategist",
+      "description": "Strategic business decisions",
+      "useCases": [
+        "Business pivots",
+        "ROI analysis",
+        "Long-term planning",
+        "Market positioning"
+      ],
+      "active": true
+    },
+    "content": {
+      "trigger": "@content",
+      "filename": "content-strategist.md",
+      "emoji": "🎬",
+      "name": "Content Strategist",
+      "description": "Video & content creation",
+      "useCases": [
+        "Video scripts",
+        "Sponsorship pitches",
+        "Content planning",
+        "Monetization strategies"
+      ],
+      "active": true
+    },
+    "credit": {
+      "trigger": "@credit",
+      "filename": "credit-advisor.md",
+      "emoji": "💳",
+      "name": "Credit Advisor",
+      "description": "Financial & credit advice",
+      "useCases": [
+        "Credit score optimization",
+        "Debt management",
+        "Financial planning",
+        "Credit card strategies"
+      ],
+      "active": true
+    }
+  },
+  "defaultAgent": "publicist",
+  "specialCommands": {
+    "help": {
+      "aliases": ["help", "agents", "list"],
+      "description": "Show available agents and commands"
+    },
+    "clear": {
+      "aliases": ["clear", "reset"],
+      "description": "Clear conversation memory"
+    },
+    "status": {
+      "aliases": ["status", "info"],
+      "description": "Show current agent status"
+    }
+  },
+  "settings": {
+    "triggerPrefix": "@",
+    "caseSensitive": false,
+    "allowImplicitContinuation": true,
+    "memoryEnabled": false,
+    "maxMemoryMessages": 10
+  },
+  "future": {
+    "agents": [
+      {
+        "trigger": "@designer",
+        "name": "Designer",
+        "description": "UI/UX design feedback",
+        "status": "planned"
+      },
+      {
+        "trigger": "@developer",
+        "name": "Developer",
+        "description": "Code review & technical advice",
+        "status": "planned"
+      },
+      {
+        "trigger": "@sales",
+        "name": "Sales Coach",
+        "description": "Sales strategies & outreach",
+        "status": "planned"
+      }
+    ]
+  },
+  "metadata": {
+    "createdAt": "2025-11-09",
+    "lastUpdated": "2025-11-09",
+    "version": "1.0.0"
+  }
+}
