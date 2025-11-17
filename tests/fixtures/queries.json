@@ -1,0 +1,63 @@
+{
+  "publicist": {
+    "happy_path": "PropIQ just hit 100 Chrome extension installs!",
+    "edge_cases": [
+      "Need to announce our Series A funding round of $2.5M",
+      "Launching new feature tomorrow - AI-powered property insights",
+      "PropIQ Chrome extension just got approved - create multi-platform launch content"
+    ],
+    "expected_keywords": ["Twitter", "LinkedIn", "announcement", "post", "thread"]
+  },
+  "growth": {
+    "happy_path": "LinkedIn posts getting <100 views, what's wrong?",
+    "edge_cases": [
+      "How to optimize Twitter algorithm for tech content? My engagement dropped 80%",
+      "Best posting times for SaaS audience? Current strategy isn't working",
+      "TikTok videos stuck at 200 views - how to break through?"
+    ],
+    "expected_keywords": ["algorithm", "engagement", "optimization", "strategy", "data"]
+  },
+  "strategist": {
+    "happy_path": "Should I pivot from PropIQ to content creation?",
+    "edge_cases": [
+      "Competitor just launched similar product with $10M funding - what should I do?",
+      "Choosing between building feature X or Y with limited budget",
+      "Revenue plateaued at $5k/mo for 6 months - time to pivot or double down?"
+    ],
+    "expected_keywords": ["ROI", "analysis", "plan", "risk", "strategy", "decision"]
+  },
+  "content": {
+    "happy_path": "Create TikTok script for PropIQ demo",
+    "edge_cases": [
+      "Need YouTube video outline for productivity tips using PropIQ",
+      "Write sponsorship pitch for tech podcast - highlight PropIQ features",
+      "Instagram Reels hook ideas for real estate agents"
+    ],
+    "expected_keywords": ["hook", "script", "CTA", "video", "content"]
+  },
+  "credit": {
+    "happy_path": "How to improve 650 credit score in 6 months?",
+    "edge_cases": [
+      "Should I pay off credit card ($5k at 22% APR) or student loan ($20k at 6%) first?",
+      "Best credit card for building credit from scratch with no history?",
+      "Collections account from 3 years ago - will paying it help my score?"
+    ],
+    "expected_keywords": ["credit", "score", "plan", "timeline", "action", "impact"]
+  },
+  "invalid_agent": {
+    "query": "@invalidagent test query",
+    "expected_error": "Agent not found"
+  },
+  "empty_message": {
+    "query": "",
+    "expected_error": "Please include a question"
+  },
+  "special_characters": {
+    "query": "@growth How to go viral? 🚀\n\nTried everything:\n- SEO ✅\n- Ads ❌\n- Organic content 📝",
+    "expected_keywords": ["viral", "SEO", "content"]
+  },
+  "long_query": {
+    "query": "@strategist I'm at a major crossroads with my SaaS product PropIQ. We launched 6 months ago and have seen moderate traction - 100 Chrome extension installs, $2k MRR from 20 paying customers, but growth has plateaued. A well-funded competitor just entered the space with $10M in Series A funding and similar features. Our runway is 8 months. I'm considering three options: (1) Double down on PropIQ and compete directly, (2) Pivot to a content business teaching real estate investing, or (3) Merge the two by building a content-led growth strategy around PropIQ. Which path has the best ROI given my constraints? I have a background in real estate and strong content creation skills, but limited engineering resources (just me). What data should I analyze to make this decision?",
+    "expected_keywords": ["ROI", "analysis", "pivot", "strategy", "data"]
+  }
+}

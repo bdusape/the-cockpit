@@ -1,0 +1,31 @@
+{
+  "name": "the-cockpit-tests",
+  "version": "1.0.0",
+  "description": "Test suite for The Cockpit WhatsApp AI Agent Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:critical": "playwright test --grep @critical",
+    "test:integration": "playwright test --grep @integration",
+    "test:agents": "playwright test --grep @agents",
+    "validate:agents": "node tests/scripts/validate-agents.js",
+    "validate:config": "node tests/scripts/validate-config.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "ai",
+    "testing",
+    "playwright",
+    "e2e"
+  ],
+  "author": "Brian Dusape",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {}
+}
