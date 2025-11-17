@@ -1,0 +1,74 @@
+{
+  "agents": {
+    "publicist": {
+      "trigger": "@publicist",
+      "filename": "publicist.md",
+      "description": "PR, announcements, content creation",
+      "emoji": "📣",
+      "examples": [
+        "@publicist PropIQ hit 100 users!",
+        "@publicist Create a Product Hunt launch post",
+        "@publicist Write a tweet thread about our new feature"
+      ]
+    },
+    "growth": {
+      "trigger": "@growth",
+      "filename": "growth-hacker.md",
+      "description": "Growth hacking, algorithms, virality",
+      "emoji": "📈",
+      "examples": [
+        "@growth My LinkedIn posts are getting low views",
+        "@growth How do I optimize for the Twitter algorithm?",
+        "@growth Give me 10 growth hacks for SaaS"
+      ]
+    },
+    "strategist": {
+      "trigger": "@strategist",
+      "filename": "strategist.md",
+      "description": "Big decisions, pivots, strategy",
+      "emoji": "🧠",
+      "examples": [
+        "@strategist Should I pivot from PropIQ to content?",
+        "@strategist Analyze this business opportunity",
+        "@strategist What should my Q1 2026 priorities be?"
+      ]
+    },
+    "content": {
+      "trigger": "@content",
+      "filename": "content-strategist.md",
+      "description": "Video scripts, sponsorships, monetization",
+      "emoji": "🎬",
+      "examples": [
+        "@content Write a YouTube script about real estate investing",
+        "@content How should I pitch sponsors?",
+        "@content Create a TikTok content calendar"
+      ]
+    },
+    "credit": {
+      "trigger": "@credit",
+      "filename": "credit-advisor.md",
+      "description": "Credit advice, financial planning",
+      "emoji": "💳",
+      "examples": [
+        "@credit How do I improve my credit score?",
+        "@credit Should I pay off this debt or invest?",
+        "@credit Analyze my credit card strategy"
+      ]
+    }
+  },
+  "specialCommands": {
+    "help": {
+      "description": "Show available agents and commands",
+      "aliases": ["help", "agents", "?"]
+    },
+    "clear": {
+      "description": "Clear conversation history",
+      "aliases": ["clear", "reset"]
+    }
+  },
+  "settings": {
+    "defaultAgent": "publicist",
+    "maxConversationHistory": 10,
+    "greetOnAgentSwitch": true
+  }
+}
