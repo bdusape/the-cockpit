@@ -92,13 +92,27 @@ Bot: [Revises with punchier hooks]
 
 ## 🚀 Quick Start
 
+### 📍 **Where You Are:** All code complete, ready to deploy
+
+### 🗺️ **Your Path to Daily Use:**
+
+**👉 [MASTER_ROADMAP.md](MASTER_ROADMAP.md)** - **START HERE!** Complete overview from now to $10K MRR
+
+**📅 [docs/FROM_NOW_TO_DAILY_USE.md](docs/FROM_NOW_TO_DAILY_USE.md)** - Day-by-day guide (7-14 days to daily use)
+
+**⚡ [QUICK_START.md](QUICK_START.md)** - Deploy in 2-4 hours
+
+**📖 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)** - Detailed step-by-step guide
+
+**✅ [docs/TESTING_CHECKLIST.md](docs/TESTING_CHECKLIST.md)** - Verify everything works
+
+**🔥 [docs/P1_FEATURES.md](docs/P1_FEATURES.md)** - Differentiation features guide
+
+**🚀 [docs/P2_ROADMAP.md](docs/P2_ROADMAP.md)** - Future growth features (Month 2+)
+
 ### Ready to Deploy?
 
-**🎯 [Start Here: QUICK_START.md](QUICK_START.md)** - Get running in 2-4 hours
-
-**📖 [Full Deployment Guide: docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)** - Step-by-step with details
-
-**✅ [Testing Checklist: docs/TESTING_CHECKLIST.md](docs/TESTING_CHECKLIST.md)** - Verify it works
+**Next Step:** Read [MASTER_ROADMAP.md](MASTER_ROADMAP.md) (10 min), then start Day 1 deployment
 
 ### Prerequisites
 
