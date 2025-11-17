@@ -1,0 +1,85 @@
+{
+  "quickActions": {
+    "weekly-review": {
+      "name": "Weekly Review",
+      "description": "Strategist reviews your week and plans next week",
+      "agent": "strategist",
+      "prompt": "Let's do a weekly review. Ask me:\n1. What were my top 3 wins this week?\n2. What were my biggest challenges?\n3. What metrics moved (users, revenue, product progress)?\n4. What are my top 3 priorities for next week?\n\nThen provide strategic analysis and recommendations based on my answers.",
+      "emoji": "📊"
+    },
+    "content-blast": {
+      "name": "Content Blast",
+      "description": "Content agent creates 10 tweet ideas for the week",
+      "agent": "content",
+      "prompt": "Create 10 tweet ideas for this week based on my current business priorities and recent wins. Make them:\n- Engaging and punchy\n- Mix of educational, personal, and promotional\n- Optimized for engagement\n- Include specific hooks\n\nFormat each as a ready-to-post tweet (under 280 characters).",
+      "emoji": "🎬"
+    },
+    "announcement": {
+      "name": "Create Announcement",
+      "description": "Publicist creates multi-platform announcement",
+      "agent": "publicist",
+      "prompt": "I have a milestone or news to announce. I'll tell you what it is, then you create:\n1. Twitter thread (5-7 tweets)\n2. LinkedIn post (200-300 words)\n3. Product Hunt announcement (if applicable)\n4. Email to users/waitlist\n\nWhat's the news or milestone?",
+      "emoji": "📣",
+      "requiresInput": true
+    },
+    "growth-audit": {
+      "name": "Growth Audit",
+      "description": "Growth hacker audits your current growth tactics",
+      "agent": "growth",
+      "prompt": "Let's audit my growth tactics. Ask me:\n1. What platform am I focusing on? (Twitter, LinkedIn, TikTok, etc.)\n2. What's my current engagement/reach?\n3. What content am I posting?\n4. What's my goal? (followers, signups, brand awareness)\n\nThen provide a detailed audit with:\n- What's working\n- What's not working\n- Algorithm insights\n- 5 specific tactics to improve\n- A/B test ideas",
+      "emoji": "📈"
+    },
+    "launch-plan": {
+      "name": "Product Launch Plan",
+      "description": "Strategist + Publicist collaborate on launch strategy",
+      "agent": "collaborate",
+      "collaborateAgents": ["strategist", "publicist"],
+      "prompt": "Create a product launch plan for my next release. Include:\n- Pre-launch strategy (timing, audience, channels)\n- Launch day tactics (where to post, what to say)\n- Post-launch follow-up (metrics to track, amplification)\n\nWhat am I launching?",
+      "emoji": "🚀",
+      "requiresInput": true
+    },
+    "pricing-analysis": {
+      "name": "Pricing Analysis",
+      "description": "Strategist analyzes your pricing strategy",
+      "agent": "strategist",
+      "prompt": "Let's analyze my pricing strategy. Tell me:\n1. Current pricing tiers (if any)\n2. Target customer (who's buying?)\n3. Competitor pricing\n4. Current conversion rate (free to paid)\n5. Customer feedback on pricing\n\nThen provide:\n- Analysis of current pricing\n- Recommended pricing tiers\n- Psychological pricing tactics\n- A/B test ideas\n- Revenue projections",
+      "emoji": "💰"
+    },
+    "content-repurpose": {
+      "name": "Repurpose Content",
+      "description": "Content agent repurposes one piece into 10 formats",
+      "agent": "content",
+      "prompt": "I have a piece of content (tweet, article, video script, etc.) that I want to repurpose into multiple formats. Share the content, and I'll transform it into:\n\n1. Twitter thread\n2. LinkedIn post\n3. TikTok/YouTube Short script\n4. Email newsletter section\n5. Instagram carousel (text for 5 slides)\n6. Blog post outline\n7. Podcast talking points\n8. Quote graphics (3 pull quotes)\n9. Reddit post\n10. LinkedIn article\n\nWhat content should I repurpose?",
+      "emoji": "♻️",
+      "requiresInput": true
+    },
+    "competitor-analysis": {
+      "name": "Competitor Analysis",
+      "description": "Strategist analyzes a competitor",
+      "agent": "strategist",
+      "prompt": "Let's analyze a competitor. Tell me:\n1. Competitor name\n2. Their product/service\n3. Their pricing\n4. Their marketing approach\n5. What they do well\n6. What they do poorly\n\nThen I'll provide:\n- SWOT analysis\n- Differentiation opportunities\n- What to learn from them\n- What to avoid\n- How to position against them",
+      "emoji": "🔍",
+      "requiresInput": true
+    },
+    "viral-breakdown": {
+      "name": "Viral Content Breakdown",
+      "description": "Growth hacker analyzes why content went viral",
+      "agent": "growth",
+      "prompt": "Share a piece of viral content (link or description), and I'll break down:\n\n1. Why it went viral (algorithm + psychology)\n2. Key elements that drove engagement\n3. Platform-specific tactics used\n4. How to replicate the success\n5. Template you can use\n\nWhat viral content should I analyze?",
+      "emoji": "🔥",
+      "requiresInput": true
+    },
+    "monthly-goals": {
+      "name": "Set Monthly Goals",
+      "description": "Strategist helps you set SMART goals for the month",
+      "agent": "strategist",
+      "prompt": "Let's set goals for this month. Tell me:\n1. What did you accomplish last month?\n2. Current metrics (users, revenue, etc.)\n3. Top 3 priorities this month\n4. Any constraints (time, budget, resources)\n\nThen I'll create:\n- 3-5 SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound)\n- Key milestones\n- Success metrics\n- Risk mitigation\n- Weekly action plan",
+      "emoji": "🎯"
+    }
+  },
+  "settings": {
+    "triggerPrefix": "/",
+    "helpCommand": "/actions",
+    "enabledByDefault": true
+  }
+}

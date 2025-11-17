@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "LUNTRA",
+    "plan": "free",
+    "maxUsers": 3,
+    "maxMessagesPerMonth": 100
+  },
+  "users": {
+    "owner": {
+      "phoneNumber": "YOUR_PHONE_NUMBER_HERE",
+      "name": "Brian Dusape",
+      "role": "owner",
+      "email": "brian@example.com",
+      "joinedDate": "2025-11-17",
+      "isActive": true,
+      "messageLimit": null,
+      "permissions": [
+        "admin",
+        "all_agents",
+        "invite_users",
+        "view_analytics"
+      ]
+    }
+  },
+  "invitedUsers": [],
+  "roles": {
+    "owner": {
+      "description": "Full access to everything",
+      "permissions": ["admin", "all_agents", "invite_users", "view_analytics", "manage_billing"]
+    },
+    "admin": {
+      "description": "Can manage users and settings",
+      "permissions": ["all_agents", "invite_users", "view_analytics"]
+    },
+    "member": {
+      "description": "Can use agents",
+      "permissions": ["all_agents"]
+    },
+    "limited": {
+      "description": "Limited agent access",
+      "permissions": ["publicist", "content"],
+      "messageLimit": 20
+    }
+  },
+  "plans": {
+    "free": {
+      "name": "Free",
+      "maxUsers": 1,
+      "maxMessagesPerMonth": 50,
+      "agents": ["publicist", "growth", "strategist", "content", "credit"],
+      "features": ["basic_agents", "conversation_memory"]
+    },
+    "starter": {
+      "name": "Starter",
+      "price": 9,
+      "maxUsers": 1,
+      "maxMessagesPerMonth": 300,
+      "agents": ["publicist", "growth", "strategist", "content", "credit"],
+      "features": ["all_agents", "conversation_memory", "voice_messages", "quick_actions"]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": 29,
+      "maxUsers": 3,
+      "maxMessagesPerMonth": 1000,
+      "agents": ["publicist", "growth", "strategist", "content", "credit"],
+      "features": ["all_agents", "conversation_memory", "voice_messages", "quick_actions", "agent_collaboration", "context_injection", "team_access"]
+    },
+    "team": {
+      "name": "Team",
+      "price": 99,
+      "maxUsers": 10,
+      "maxMessagesPerMonth": 5000,
+      "agents": ["publicist", "growth", "strategist", "content", "credit"],
+      "features": ["all_agents", "conversation_memory", "voice_messages", "quick_actions", "agent_collaboration", "context_injection", "team_access", "knowledge_base", "analytics_dashboard", "priority_support"]
+    }
+  },
+  "usage": {
+    "currentMonth": "2025-11",
+    "messagesUsed": 0,
+    "messagesLimit": 100
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "lastUpdated": "2025-11-17",
+  "business": {
+    "name": "LUNTRA",
+    "stage": "Pre-revenue, early-stage startup",
+    "founded": "2025",
+    "location": "South Jersey (near Philadelphia)"
+  },
+  "products": {
+    "propiq": {
+      "name": "PropIQ",
+      "description": "AI-powered real estate investment analysis platform",
+      "status": "Chrome Extension submitted to Web Store (awaiting approval), Web App deployed to Azure",
+      "metrics": {
+        "users": 0,
+        "chromeExtensionInstalls": 0,
+        "payingCustomers": 0,
+        "mrr": 0,
+        "arr": 0
+      },
+      "goals": {
+        "q4_2025": "100+ Chrome extension installs, first 5 paying customers",
+        "q1_2026": "$5k MRR, 50+ paying customers",
+        "longTerm": "Industry leader in AI-powered real estate analysis"
+      },
+      "pricing": {
+        "free": "3 trial analyses",
+        "starter": "$29/month (20 analyses)",
+        "pro": "$79/month (100 analyses)",
+        "elite": "$199/month (unlimited)"
+      },
+      "recentWins": [],
+      "challenges": []
+    },
+    "theCockpit": {
+      "name": "The Cockpit",
+      "description": "WhatsApp-based AI agent platform for founders",
+      "status": "MVP implementation complete, ready to deploy",
+      "metrics": {
+        "users": 0,
+        "mrr": 0
+      },
+      "goals": {
+        "week1": "Deploy MVP, dogfood for 5+ days",
+        "month1": "$500 MRR, 10-15 paying customers",
+        "month2": "10-20 beta users"
+      }
+    }
+  },
+  "currentPriorities": [
+    "Deploy The Cockpit MVP to Pipedream",
+    "Get PropIQ Chrome Extension approved",
+    "Acquire first 100 PropIQ users",
+    "Build content library (50+ posts in 2 weeks)"
+  ],
+  "recentWins": [
+    "The Cockpit P0 features implemented (Nov 17, 2025)",
+    "PropIQ Chrome Extension submitted",
+    "PropIQ Web App deployed to Azure"
+  ],
+  "upcomingMilestones": [
+    "The Cockpit MVP deployed",
+    "PropIQ Chrome Extension approval",
+    "First paying PropIQ customer",
+    "100 PropIQ Chrome extension installs"
+  ],
+  "competitivePositioning": {
+    "theCockpit": {
+      "vs_motion": "95% cheaper ($6/month vs $600/month), WhatsApp-native, multi-agent collaboration",
+      "vs_chatgpt": "Specialized agents with roles, conversation memory per agent, WhatsApp accessible",
+      "uniqueFeatures": [
+        "Agent collaboration (chain agents together)",
+        "WhatsApp-native (no app required)",
+        "Context injection (agents know current business state)",
+        "95% cost savings vs Motion"
+      ]
+    },
+    "propiq": {
+      "vs_spreadsheets": "30 seconds vs 3+ hours, AI-powered, more accurate",
+      "vs_dealcheck": "Faster, AI-powered, Chrome extension",
+      "vs_biggerpockets": "Chrome extension = analyze on Zillow directly"
+    }
+  },
+  "team": {
+    "founder": "Brian Dusape (solo founder, technical background)",
+    "size": 1,
+    "hiring": false
+  },
+  "financials": {
+    "runway": "Recently received technical funding",
+    "burn": "Low (bootstrapped)",
+    "revenue": 0
+  }
+}
